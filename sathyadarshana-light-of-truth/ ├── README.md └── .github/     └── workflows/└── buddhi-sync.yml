@@ -1,0 +1,4 @@
+.github/
+  workflows/
+    buddhi-sync.yml
+README.md
