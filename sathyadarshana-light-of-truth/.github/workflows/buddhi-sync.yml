@@ -1,0 +1,18 @@
+name: Buddhi AI Sync
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Deploy info
+        run: echo "🚀 Buddhi AI sync active - site preparing"
+Create Buddhi AI Sync workflow
