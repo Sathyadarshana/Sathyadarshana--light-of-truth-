@@ -17,3 +17,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./
+# මේ line එකක් add කරන්න
+# Last updated by Anurudda at 05:49
